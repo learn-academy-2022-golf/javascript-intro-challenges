@@ -3,7 +3,7 @@
 
 // Write a statement that takes a variable of item and logs "in budget" if a price is $100 or less.
 
-let item = 80
+let item = 100
 
 if (item < 100) {
     console.log("in budget")
@@ -25,9 +25,9 @@ if (hunger === "hungry") {
 
 let trafficLight = "green"
 
-if (trafficLight = "green") {
+if (trafficLight === "green") {
     console.log("go")
-} else if (trafficLight = "yellow") {
+} else if (trafficLight === "yellow") {
     console.log("slow down")
 } else {
     console.log("stop")
@@ -61,6 +61,28 @@ if (num3 === 0) {
 // 🏔 Stretch Goals
 // Write a statement that takes a variable of a grade percentage and logs the letter grade for that percentage, if the grade is 100% log "perfect score", if the grade is zero log "no grade available."
 
+let grade = 44;
+
+if (grade === 100) {
+    console.log("perfect score");
+} else if (grade >= 90) {
+    console.log("A");
+} else if (grade >= 80) {
+    console.log("B");
+} else if (grade >= 70) {
+    console.log("C");
+} else if (grade >= 60) {
+    console.log("D");
+} else {
+    console.log("F");
+}
+
 // Write a statement that takes a variable of a boolean, number, or string data type and logs the data type of the variable. HINT: Check out the JavaScript typeof operator.
+
+// let datatype = 6;
+
+// if (datatype === true) {
+//     console.log(typeof datatype);
+// }
 
 // Create a password checker using a single conditional statement. If a user inputs a password with 12 or more characters AND the password includes !, then log "That is a mighty strong password!" If the user’s password is 8 or more characters OR includes !, then log "That password is strong enough." Log "That is not a valid password." for every other input.
