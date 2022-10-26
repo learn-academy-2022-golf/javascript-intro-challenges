@@ -62,6 +62,7 @@ else {
 
 // Write a statement that takes a variable of a number and logs whether the number is odd, even, or zero.
 
+
 // 🏔 Stretch Goals
 // Write a statement that takes a variable of a grade percentage and logs the letter grade for that percentage, if the grade is 100% log "perfect score", if the grade is zero log "no grade available."
 
