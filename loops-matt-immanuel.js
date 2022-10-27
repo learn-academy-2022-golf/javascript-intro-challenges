@@ -85,9 +85,17 @@ for(let i = 0; i <= numsArray2.length; i++) {
 // Expected output: ODD, 2, ODD, 4, ODD, 6 ...etc
 // Consider this variable:
 
-const nums = [3, 57, -9, 20, 67]
+var nums = [3, 57, -9, 20, 67];
 
+var largest = nums[i]; 
+for(i = 0; i <= nums.length; i++) {
+    if(largest < nums[i]) {
+        largest = nums[i];
+    }
+}
+console.log(largest)
 // Create the code that will log the largest number from the array.
+
 // Create the code that will log the smallest number from the array.
 // Create the code that will log the remainder of each number when divided by 2. Expected output: 1, 1, -1, 0, 1
 // Consider this variable:
