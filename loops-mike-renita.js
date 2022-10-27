@@ -23,15 +23,44 @@ for(let i = 1; i<=20; i++){
 
 // Consider this variable:
 
-// const nums = [3, 57, -9, 20, 67]
+const nums = [3, 57, -9, 20, 67]
 // Create the code that will log the largest number from the array.
+let big = nums[0]
+for(let i=0; i<nums.length; i++){
+    if(big < nums[i]){
+        big = nums[i]
+    }
+}
+console.log(big)
 // Create the code that will log the smallest number from the array.
+let small = nums[0]
+for(let i=0; i<nums.length; i++){
+    if(small > nums[i]){
+        small = nums[i]
+    }
+}
+console.log(small)
+
 // Create the code that will log the remainder of each number when divided by 2. Expected output: 1, 1, -1, 0, 1
+for(let i = 0; i<nums.length; i++){
+    console.log(nums[i] % 2)
+}
+
 // Consider this variable:
 
-// const myString = "learn student"
+const myString = "learn student"
 // Create the code that will log the number of times the letter "e" occurs in the string.
+let count = 0
+for(let i = 0; i < myString.length; i++){
+    if(myString[i] === "e"){
+    count++
+    }
+}
+console.log("this many e's: " + count)
 // Create the code that will log every other character in the string.
+for(let i = 0; i < myString.length; i=i+2){
+    console.log(myString[i])
+}
 // 🏔 Stretch Goals
 // Create the code that iterates from 5 to 15. For each iteration log if the current number is odd or even.
 // Expected output: "5 is odd" "6 is even" "7 is odd" ...etc
