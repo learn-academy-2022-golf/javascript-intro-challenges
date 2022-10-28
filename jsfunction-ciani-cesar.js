@@ -72,13 +72,81 @@ console.log(multiply(1, 2));
 //switch
 // Write a function named divisibleBy that takes two numbers as arguments and returns whether the first number is evenly divisible by the second so that divisibleBy(10, 5) logs "10 is evenly divisible by 5".
 
+// Input: two numbers
+// Output: computes whether the first number is divisible by the second number inputted
+//Return: If the results are even
+
+const divisibleBy = (nums1, nums2) =>{
+    if (nums1 % nums2 === 0){
+        return `${nums1} is evenly divisible by ${nums2}`
+    }
+}
+// We used modula here because there is no remainder when you divide the 2, so it is even. no remainder. 
+console.log(divisibleBy(10, 5))
+ 
+// output: 10 is evenly divisible by 5
+
 // Write a function named assignGrade that takes a number score as an argument and returns the letter grade for the score.
+
+// input: number score
+// output: letter grade
+// result: logs an A
+
+const assignGrade = (grade) =>{
+    if(grade >= 90){
+        return "A"}
+    // } else if (grade >= 80){
+    //     return "B"
+    // }
+}
+console.log(assignGrade(92))
+// output: A
 
 // Write a function named isLonger that takes two strings as arguments and returns the string that contains the most characters.
 
+// input: argument 1 and argument 2, both strings 
+// output: which argument length has the most characters
+// result: Which argument is longer
+
+const isLonger = (arg1, arg2) =>{
+    if(arg1.length > arg2.length){
+        return arg1
+    } else {
+        return arg2 
+    }
+}
+console.log (isLonger("This arguement", "This is argument is longer"))
+// These two arguments are comparing lengths 
+
+// ouput: This is argument is longer
+
 // Write a function named greaterNum that takes two numbers as arguments and returns whichever number is the greater (higher) number.
+// input: 2 numbers
+// output: basically the comparison of the two numbers in the variable, to evaulate which number is greater
+
+const greaterNumr = (nu1, nu2) =>{
+    if(arg1.length > arg2.length){
+        return arg1
+    } else {
+        return arg2 
+    }
+}
+console.log (isLonger("This arguement", "This is argument is longer"))
+
+
+
+
+
 
 // -. Write a function named yelling that takes a string as an argument and return the string in all uppercase case letters.
+
+
+
+
+
+
+
+
 
 // 🏔 Stretch Goals
 // The World Translator
