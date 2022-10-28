@@ -73,9 +73,42 @@
 
 // Write a function named isLonger that takes two strings as arguments and returns the string that contains the most characters.
 
+// input islonger("""")
+//output longer string
+
+// const isLonger = (string1, string2)=> {
+//     if(string1.length > string2.length)
+//     return `${string1} is longer than ${string2}`
+//     else if(string2.length > string1.length)
+//     return `${string2} is longer than ${string1}`
+//     else 
+//     return `${string1} is = ${string2}`
+// }
+// console.log(isLonger ("dog", "elephant"))
+
 // Write a function named greaterNum that takes two numbers as arguments and returns whichever number is the greater (higher) number.
 
+// input greaterNum (num1,num2)
+// output (num1 or num2)
+// const greaterNum = (num1, num2)=> {
+//         if(num1 > num2)
+//         return `${num1}`
+//         else if(num2 > num1)
+//         return `${num2}`
+//         else 
+//         return `${num1} = ${num2}`
+//     }
+// console.log(greaterNum(2,5));
+
 // -. Write a function named yelling that takes a string as an argument and return the string in all uppercase case letters.
+
+// input const yelling("")
+// output return "upperCaseString"
+
+const yelling = (upperCaseString)=> {
+    return upperCaseString.toUpperCase()
+}
+console.log(yelling("hello"))
 
 // 🏔 Stretch Goals
 // The World Translator
