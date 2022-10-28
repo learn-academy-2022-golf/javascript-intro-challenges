@@ -89,8 +89,22 @@ const isLonger = (string1, string2) => {
 }
 console.log(isLonger("ABCDEF", "ABCDEF"))
 // Write a function named greaterNum that takes two numbers as arguments and returns whichever number is the greater (higher) number.
+// input = num1, num2
+// output = larger number 
+const greaterNum = (num1, num2) => {
+    if(num1 > num2) {
+        return num1
+    } else if(num1 < num2) {
+        return num2
+    } else {
+        return "error"
+    }
+} 
+console.log(greaterNum(5, 5))
 
 // -. Write a function named yelling that takes a string as an argument and return the string in all uppercase case letters.
+// input = string 
+// output = string.toUpperCase()
 
 // 🏔 Stretch Goals
 // The World Translator
