@@ -66,12 +66,32 @@ console.log(isLonger("Shannon", "Garrett"))
 
 // Write a function named greaterNum that takes two numbers as arguments and returns whichever number is the greater (higher) number.
 
+let greaterNum = (num1,num2) => {
+    if(num1 === num2) {
+        return "Equal"
+    }
+    if(num1 > num2){
+        return `${num1} is Greater than ${num2}`
+    } else {
+        return `${num2} is Greater than ${num1}`
+    }
+}
+console.log(greaterNum(6,6));
+
 // -. Write a function named yelling that takes a string as an argument and return the string in all uppercase case letters.
 
+let yelling = (string) => {
+    return string.toUpperCase()
+}
+
+console.log(yelling("big"));
 // 🏔 Stretch Goals
 // The World Translator
 
 // Write a function named helloWorld that takes a language code (e.g. "es", "de", "en") as an argument and returns "Hello World!" in the given language. Ensure you function works for at least 5 languages.
+let helloWorld = (language) => {
+
+}
 // Have your function default to returning English.
 // The Pluralizer
 
